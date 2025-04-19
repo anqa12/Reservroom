@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="Reservroom" Height="450" Width="800" FontSize="14">
     <Grid Margin="20 10" MaxWidth="600">
-        <!--<views:MakeReservationView x:Name="MakeReservationView"/>-->
-        <views:ReservationListingView x:Name="ReservationListingView" />
+        <!--<views:MakeReservationView x:Name="MakeReservationView" DataContext="{Binding CurrentViewModel}"/>-->
+        <views:ReservationListingView x:Name="ReservationListingView" DataContext="{Binding CurrentViewModel}"/>
     </Grid>
 </Window>

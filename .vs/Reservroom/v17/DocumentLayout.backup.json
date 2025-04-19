@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\view\\reservationlistingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\view\\reservationlistingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\viewmodels\\makereservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\viewmodels\\makereservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\viewmodels\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\viewmodels\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\models\\reservationbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\models\\reservationbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\view\\makereservationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\view\\makereservationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\viewmodels\\reservationlistingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\viewmodels\\reservationlistingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|c:\\users\\antri\\onedrive - politechnika \u015Bl\u0105ska\\desktop\\programming_practise\\c#\\reservroom\\reservroom\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84A3785F-F390-4A2C-BADA-EF428606A5C0}|Reservroom\\Reservroom.csproj|solutionrelative:reservroom\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,89 +66,154 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Reservroom\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\App.xaml.cs",
-              "RelativeToolTip": "Reservroom\\App.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA7wCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T09:48:26.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReservationListingView.xaml",
-              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\View\\ReservationListingView.xaml",
-              "RelativeDocumentMoniker": "Reservroom\\View\\ReservationListingView.xaml",
-              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\View\\ReservationListingView.xaml",
-              "RelativeToolTip": "Reservroom\\View\\ReservationListingView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-19T09:27:59.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Hotel.cs",
-              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\Models\\Hotel.cs",
-              "RelativeDocumentMoniker": "Reservroom\\Models\\Hotel.cs",
-              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\Models\\Hotel.cs",
-              "RelativeToolTip": "Reservroom\\Models\\Hotel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBMAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T09:25:26.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReservationBook.cs",
-              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\Models\\ReservationBook.cs",
-              "RelativeDocumentMoniker": "Reservroom\\Models\\ReservationBook.cs",
-              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\Models\\ReservationBook.cs",
-              "RelativeToolTip": "Reservroom\\Models\\ReservationBook.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T09:24:16.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\App.xaml",
               "RelativeDocumentMoniker": "Reservroom\\App.xaml",
               "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\App.xaml",
               "RelativeToolTip": "Reservroom\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-19T09:20:01.692Z",
+              "WhenOpened": "2025-04-19T13:58:40.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Reservroom\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\MainWindow.xaml",
               "RelativeToolTip": "Reservroom\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T12:22:17.112Z",
+              "WhenOpened": "2025-04-19T13:54:18.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Reservroom\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "Reservroom\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T11:05:54.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MakeReservationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\ViewModels\\MakeReservationViewModel.cs",
+              "RelativeDocumentMoniker": "Reservroom\\ViewModels\\MakeReservationViewModel.cs",
+              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\ViewModels\\MakeReservationViewModel.cs",
+              "RelativeToolTip": "Reservroom\\ViewModels\\MakeReservationViewModel.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwEQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T14:08:35.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\ViewModels\\ReservationViewModel.cs",
+              "RelativeDocumentMoniker": "Reservroom\\ViewModels\\ReservationViewModel.cs",
+              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\ViewModels\\ReservationViewModel.cs",
+              "RelativeToolTip": "Reservroom\\ViewModels\\ReservationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T11:26:20.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservationListingView.xaml",
+              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\View\\ReservationListingView.xaml",
+              "RelativeDocumentMoniker": "Reservroom\\View\\ReservationListingView.xaml",
+              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\View\\ReservationListingView.xaml",
+              "RelativeToolTip": "Reservroom\\View\\ReservationListingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-19T11:23:09.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Reservroom\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\App.xaml.cs",
+              "RelativeToolTip": "Reservroom\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T13:58:42.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "Reservroom\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "Reservroom\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T14:04:42.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MakeReservationView.xaml",
               "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\View\\MakeReservationView.xaml",
               "RelativeDocumentMoniker": "Reservroom\\View\\MakeReservationView.xaml",
               "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\View\\MakeReservationView.xaml",
               "RelativeToolTip": "Reservroom\\View\\MakeReservationView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T19:57:10.475Z",
+              "WhenOpened": "2025-04-19T14:02:31.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Reservroom\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Reservroom\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T13:54:07.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Reservroom\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\Models\\Reservation.cs",
+              "RelativeToolTip": "Reservroom\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T11:32:09.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservationListingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\ViewModels\\ReservationListingViewModel.cs",
+              "RelativeDocumentMoniker": "Reservroom\\ViewModels\\ReservationListingViewModel.cs",
+              "ToolTip": "C:\\Users\\antri\\OneDrive - Politechnika \u015Al\u0105ska\\Desktop\\programming_practise\\c#\\Reservroom\\Reservroom\\ViewModels\\ReservationListingViewModel.cs",
+              "RelativeToolTip": "Reservroom\\ViewModels\\ReservationListingViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T11:05:42.096Z",
               "EditorCaption": ""
             }
           ]

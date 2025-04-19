@@ -32,7 +32,7 @@
                 Margin="10"/>
             <TextBox 
                 Grid.Row="1"
-                Name="f" 
+                Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" 
                 FontSize="16" 
                 Margin="0 5 0 0"/>
             <!-- left top right bottom -->
@@ -56,7 +56,7 @@
             <TextBox 
                 Grid.Row="1"
                 Grid.Column="0"
-                Name="n" 
+                Text="{Binding FloorNumber, UpdateSourceTrigger=PropertyChanged}" 
                 FontSize="16" 
                 Margin="0 5 0 0"/>
 
@@ -69,7 +69,7 @@
             <TextBox 
                 Grid.Row="1"
                 Grid.Column="1"
-                Name="na" 
+                Text="{Binding RoomNumber, UpdateSourceTrigger=PropertyChanged}" 
                 FontSize="16" 
                 Margin="10 5 0 0"/>
         </Grid>
@@ -92,7 +92,7 @@
             <DatePicker 
                 Grid.Row="1"
                 Grid.Column="0"
-                SelectedDate=""
+                SelectedDate="{Binding StartDate, UpdateSourceTrigger=PropertyChanged}"
                 FontSize="16" 
                 Margin="0 5 0 0"/>
 
@@ -105,14 +105,14 @@
             <DatePicker 
                 Grid.Row="1"
                 Grid.Column="1"
-                SelectedDate=""
+                SelectedDate="{Binding EndDate, UpdateSourceTrigger=PropertyChanged}"
                 FontSize="16" 
                 Margin="10 5 0 0"/>
         </Grid>
 
         <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="0 25 0 0">
-            <Button Content="Submit" />
-            <Button Content="Cancel" Margin="10 0 0 0"/>
+            <Button Content="Submit" Command="{Binding SubmitCommand}"/>
+            <Button Content="Cancel" Margin="10 0 0 0" Command="{Binding CancelCommand}"/>
         </StackPanel>
     </Grid>
 </UserControl>

@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Reservroom.Models
+﻿namespace Reservroom.Models
 {
     public class Reservation
     {
         public RoomID RoomID { get; }
-        public string UserName { get; }
+        public string Username { get; }
         public DateTime StartDate { get; }
         public DateTime EndDate { get; }
         public TimeSpan Duration => EndDate - StartDate;
@@ -17,7 +11,7 @@ namespace Reservroom.Models
         public Reservation(RoomID roomID, string username, DateTime startDate, DateTime endDate)
         {
             RoomID = roomID;
-            UserName = username;
+            Username = username;
             StartDate = startDate;
             EndDate = endDate;
         }

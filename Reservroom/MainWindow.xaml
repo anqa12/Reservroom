@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:Reservroom" 
         xmlns:views="clr-namespace:Reservroom.View"
         mc:Ignorable="d"
-        Title="Reservroom" Height="450" Width="800">
-    <Grid>
-        <views:MakeReservationView x:Name="MakeReservationView"/>
+        Title="Reservroom" Height="450" Width="800" FontSize="14">
+    <Grid Margin="20 10" MaxWidth="600">
+        <!--<views:MakeReservationView x:Name="MakeReservationView"/>-->
+        <views:ReservationListingView x:Name="ReservationListingView" />
     </Grid>
 </Window>

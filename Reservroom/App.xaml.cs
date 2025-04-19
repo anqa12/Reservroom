@@ -1,6 +1,4 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Windows;
+﻿using System.Windows;
 using Reservroom.Models;
 
 namespace Reservroom
@@ -15,7 +13,8 @@ namespace Reservroom
         {
             Hotel hotel = new Hotel("Hotel California");
 
-            try {
+            try
+            {
                 hotel.MakeReservation(new Reservation(
                     new RoomID(1, 101),
                     "John Doe",
@@ -41,9 +40,9 @@ namespace Reservroom
             {
                 MessageBox.Show(ex.Message);
             }
-            IEnumerable<Reservation> johnsReservations = hotel.GetReservationsForUser("John Doe");
+
             base.OnStartup(e);
         }
-    } 
+    }
 
 }

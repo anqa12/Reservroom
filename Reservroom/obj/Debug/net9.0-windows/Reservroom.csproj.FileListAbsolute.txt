@@ -23,3 +23,5 @@ C:\Users\antri\OneDrive - Politechnika Śląska\Desktop\programming_practise\c#\
 C:\Users\antri\OneDrive - Politechnika Śląska\Desktop\programming_practise\c#\Reservroom\Reservroom\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\antri\OneDrive - Politechnika Śląska\Desktop\programming_practise\c#\Reservroom\Reservroom\obj\Debug\net9.0-windows\View\MakeReservationView.baml
 C:\Users\antri\OneDrive - Politechnika Śląska\Desktop\programming_practise\c#\Reservroom\Reservroom\obj\Debug\net9.0-windows\View\ReservationListingView.baml
+C:\Users\antri\OneDrive - Politechnika Śląska\Desktop\programming_practise\c#\Reservroom\Reservroom\obj\Debug\net9.0-windows\Reservroom.sourcelink.json
+C:\Users\antri\OneDrive - Politechnika Śląska\Desktop\programming_practise\c#\Reservroom\Reservroom\obj\Debug\net9.0-windows\App.baml

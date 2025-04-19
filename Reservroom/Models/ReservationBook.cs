@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO.Packaging;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Reservroom.Exceptions;
+﻿using Reservroom.Exceptions;
 
 namespace Reservroom.Models
 {
@@ -17,16 +11,16 @@ namespace Reservroom.Models
             _reservations = new List<Reservation>();
         }
 
-        public IEnumerable<Reservation> GetReservationsForUser(string username)
+        public IEnumerable<Reservation> GetAllReservations()
         {
-            return _reservations.Where(r => r.UserName == username);
+            return _reservations;
         }
 
         public void AddReservation(Reservation reservation)
         {
             foreach (Reservation existingReservation in _reservations)
             {
-                if(existingReservation.Conflicts(reservation))
+                if (existingReservation.Conflicts(reservation))
                 {
                     throw new ReservationConflictException(existingReservation, reservation);
                 }

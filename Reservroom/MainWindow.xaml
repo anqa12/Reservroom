@@ -4,11 +4,21 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Reservroom" 
-        xmlns:views="clr-namespace:Reservroom.View" xmlns:viewmodels="clr-namespace:Reservroom.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:MainViewModel}"
+        xmlns:views="clr-namespace:Reservroom.View" 
+        xmlns:vms="clr-namespace:Reservroom.ViewModels"
         mc:Ignorable="d"
         Title="Reservroom" Height="450" Width="800" FontSize="14">
     <Grid Margin="20 10" MaxWidth="600">
-        <views:MakeReservationView x:Name="MakeReservationView" DataContext="{Binding CurrentViewModel}"/>
+        <Grid.Resources>
+            <DataTemplate DataType="{x:Type vms:MakeReservationViewModel}">
+                <views:MakeReservationView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vms:ReservationListingViewModel}">
+                <views:ReservationListingView/>
+            </DataTemplate>
+        </Grid.Resources>
+
+        <ContentControl Content="{Binding CurrentViewModel}"/>
         <!--<views:ReservationListingView x:Name="ReservationListingView" DataContext="{Binding CurrentViewModel}"/>-->
     </Grid>
 </Window>

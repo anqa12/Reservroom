@@ -16,15 +16,5 @@
             EndDate = endDate;
         }
 
-        public bool Conflicts(Reservation reservation)
-        {
-            if (reservation.RoomID != RoomID)
-            {
-                return false;
-            }
-
-            // Check if the reservations overlap
-            return reservation.StartDate < EndDate && reservation.EndDate > StartDate;
-        }
     }
 }

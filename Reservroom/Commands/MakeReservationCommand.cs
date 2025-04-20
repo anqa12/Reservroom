@@ -7,7 +7,7 @@ using Reservroom.ViewModels;
 
 namespace Reservroom.Commands
 {
-    class MakeReservationCommand : CommandBase
+    class MakeReservationCommand : AsyncCommandBase
     {
         private readonly MakeReservationViewModel _makeReservationViewModel;
         private readonly Hotel _hotel;
@@ -23,19 +23,16 @@ namespace Reservroom.Commands
 
 
 
-        // Disable the submit button if the username is empty
+        // Disable the submit button if the username is empty, the floor number is 0, or the room number is 0
         public override bool CanExecute(object? parameter)
         {
             return !string.IsNullOrEmpty(_makeReservationViewModel.Username) &&
                 _makeReservationViewModel.FloorNumber > 0 &&
                 _makeReservationViewModel.RoomNumber > 0 &&
-                _makeReservationViewModel.StartDate < _makeReservationViewModel.EndDate &&
-                _makeReservationViewModel.StartDate >= DateTime.Now &&
-                _makeReservationViewModel.EndDate >= DateTime.Now &&
                 base.CanExecute(parameter);
         }
 
-        public override void Execute(object? parameter)
+        public override async Task ExecuteAsync(object? parameter)
         {
             Reservation reservation = new Reservation(
                 new RoomID(_makeReservationViewModel.FloorNumber, _makeReservationViewModel.RoomNumber),
@@ -46,7 +43,7 @@ namespace Reservroom.Commands
             // Check if the reservation conflicts with existing reservations
             try
             {
-                _hotel.MakeReservation(reservation);
+                await _hotel.MakeReservation(reservation);
 
                 MessageBox.Show("Reservation made successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 
@@ -56,6 +53,10 @@ namespace Reservroom.Commands
             catch (ReservationConflictException)
             {
                 MessageBox.Show("Reservation conflicts with an existing reservation.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Failed to make a reservation.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
         }

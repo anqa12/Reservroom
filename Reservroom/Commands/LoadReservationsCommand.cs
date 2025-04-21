@@ -1,5 +1,5 @@
 ﻿using System.Windows;
-using Reservroom.Models;
+using Reservroom.Stores;
 using Reservroom.ViewModels;
 
 namespace Reservroom.Commands
@@ -7,20 +7,20 @@ namespace Reservroom.Commands
     public class LoadReservationsCommand : AsyncCommandBase
     {
         private readonly ReservationListingViewModel _viewModel;
-        private readonly Hotel _hotel;
+        private readonly HotelStore _hotelStore;
 
-        public LoadReservationsCommand(ReservationListingViewModel reservationListingViewModel, Hotel hotel)
+        public LoadReservationsCommand(ReservationListingViewModel reservationListingViewModel, HotelStore hotelStore)
         {
             _viewModel = reservationListingViewModel;
-            _hotel = hotel;
+            _hotelStore = hotelStore;
         }
 
         public override async Task ExecuteAsync(object? parameter)
         {
             try
             {
-                IEnumerable<Reservation> reservations = await _hotel.GetAllReservations();
-                _viewModel.UpdateReservations(reservations);
+                await _hotelStore.Load();
+                _viewModel.UpdateReservations(_hotelStore.Reservations);
 
             }
             catch (Exception)

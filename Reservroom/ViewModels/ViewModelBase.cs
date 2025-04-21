@@ -9,5 +9,7 @@ namespace Reservroom.ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+        // necessary to avoid memory leak
+        public virtual void Dispose() { }
     }
 }

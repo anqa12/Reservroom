@@ -13,10 +13,39 @@ namespace Reservroom.ViewModels
         private readonly HotelStore _hotelStore;
 
         public IEnumerable<ReservationViewModel> Reservations => _reservations;
+
+        private string _errorMsg;
+        public string ErrorMsg
+        {
+            get
+            {
+                return _errorMsg;
+            }
+            set
+            {
+                _errorMsg = value;
+                OnPropertyChanged(nameof(ErrorMsg));
+                OnPropertyChanged(nameof(HasErrorMsg));
+            }
+        }
+
+        public bool HasErrorMsg => !string.IsNullOrEmpty(ErrorMsg);
         public ICommand? LoadReservationsCommand { get; }
         public ICommand? MakeReservationCommand { get; }
 
-
+        private bool _isLoading;
+        public bool IsLoading
+        {
+            get
+            {
+                return _isLoading;
+            }
+            set
+            {
+                _isLoading = value;
+                OnPropertyChanged(nameof(IsLoading));
+            }
+        }
 
         public ReservationListingViewModel(HotelStore hotelStore, NavigationService makeReservationNavigationService)
         {

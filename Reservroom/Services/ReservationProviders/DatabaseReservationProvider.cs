@@ -20,6 +20,8 @@ namespace Reservroom.Services.ReservationProviders
             {
                 IEnumerable<ReservationDTO> reservationDTOs = await context.Reservations.ToListAsync();
 
+                await Task.Delay(5000);
+                // Simulate a delay to mimic a real database call
                 return reservationDTOs.Select(r => ToReservation(r));
             }
         }

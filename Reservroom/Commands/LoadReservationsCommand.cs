@@ -1,5 +1,4 @@
-﻿using System.Windows;
-using Reservroom.Stores;
+﻿using Reservroom.Stores;
 using Reservroom.ViewModels;
 
 namespace Reservroom.Commands
@@ -17,6 +16,9 @@ namespace Reservroom.Commands
 
         public override async Task ExecuteAsync(object? parameter)
         {
+            _viewModel.ErrorMsg = string.Empty;
+            _viewModel.IsLoading = true;
+
             try
             {
                 await _hotelStore.Load();
@@ -25,8 +27,9 @@ namespace Reservroom.Commands
             }
             catch (Exception)
             {
-                MessageBox.Show("Failed to load reservation.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                _viewModel.ErrorMsg = "Failed to load reservations.";
             }
+            _viewModel.IsLoading = false;
         }
     }
 }

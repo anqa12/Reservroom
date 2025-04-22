@@ -148,3 +148,4 @@ C:\Users\antri\OneDrive - Politechnika Śląska\Desktop\programming_practise\c#\
 C:\Users\antri\OneDrive - Politechnika Śląska\Desktop\programming_practise\c#\Reservroom\Reservroom\bin\Debug\net9.0-windows\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\antri\OneDrive - Politechnika Śląska\Desktop\programming_practise\c#\Reservroom\Reservroom\obj\Debug\net9.0-windows\Reservroom.csproj.AssemblyReference.cache
 C:\Users\antri\OneDrive - Politechnika Śląska\Desktop\programming_practise\c#\Reservroom\Reservroom\obj\Debug\net9.0-windows\Reservroom.csproj.Up2Date
+C:\Users\antri\OneDrive - Politechnika Śląska\Desktop\programming_practise\c#\Reservroom\Reservroom\bin\Debug\net9.0-windows\LoadingSpinnerControl.dll
